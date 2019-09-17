@@ -17,7 +17,7 @@ product_array=['Product0','Product1','Product2','Product3','Product4']
 SIZE_OF_ARRAY = 5
 df = pd.DataFrame({'Products' : product_array,
                    'Rate' : np.array(np.random.randint(20,30,size=SIZE_OF_ARRAY),dtype='int32'),
-                   'Jan' : np.array(np.random.randint(1000,10000,size=SIZE_OF_ARRAY),dtype='int32'),
+                   'Jan' : np.array(np.random.randint(3000,10000,size=SIZE_OF_ARRAY),dtype='int32'),
                    'Feb' : np.array(np.random.randint(2000,10000,size=SIZE_OF_ARRAY),dtype='int32'),
                    'Mar' : np.array(np.random.randint(4000,10000,size=SIZE_OF_ARRAY),dtype='int32'),    
                 })
