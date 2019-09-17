@@ -33,7 +33,7 @@ df
 # total sales
 # Excel equivalent: =(C2+D2+E2) * B2
 df["Total"] = (df["Jan"]+df["Feb"]+df["Mar"]*df["Rate"])
-df["Comments"] = df["Total"].apply(lambda x: 'Target Met' if x > 300000 else'Target not met')
+df["Comments"] = df["Total"].apply(lambda x: 'Target Met' if x > 200000 else'Target not met')
 df
 
 
